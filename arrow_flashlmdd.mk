@@ -24,11 +24,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/lge/flashlmdd/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Device identifiers
 
-PRODUCT_NAME := lineage_flashlmdd
+PRODUCT_NAME := arrow_flashlmdd
 PRODUCT_DEVICE := flashlmdd
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
