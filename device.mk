@@ -25,5 +25,7 @@ DEVICE_NAME := flashlmdd
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+TARGET_BOARD_PLATFORM := msmnile
+
 # common flash
 $(call inherit-product, device/lge/flash-common/flash.mk)
