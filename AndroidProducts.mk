@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/arrow_flashlmdd.mk
+    $(LOCAL_DIR)/krypton_flashlmdd.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_flashlmdd-userdebug \
-    arrow_flashlmdd-eng \
-    arrow_flashlmdd-user
+    krypton_flashlmdd-userdebug \
+    krypton_flashlmdd-eng \
+    krypton_flashlmdd-user
