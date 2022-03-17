@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/krypton_flashlmdd.mk
+    $(LOCAL_DIR)/lineage_flashlmdd.mk
 
 COMMON_LUNCH_CHOICES := \
-    krypton_flashlmdd-userdebug \
-    krypton_flashlmdd-eng \
-    krypton_flashlmdd-user
+    lineage_flashlmdd-userdebug \
+    lineage_flashlmdd-eng \
+    lineage_flashlmdd-user

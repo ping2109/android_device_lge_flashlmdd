@@ -24,11 +24,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 $(call inherit-product, device/lge/flashlmdd/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/krypton/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifiers
 
-PRODUCT_NAME := krypton_flashlmdd
+PRODUCT_NAME := lineage_flashlmdd
 PRODUCT_DEVICE := flashlmdd
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
@@ -40,11 +40,6 @@ TARGET_VENDOR_DEVICE_NAME := flashlmdd
 
 PRODUCT_SYSTEM_NAME := V50 ThinQ
 PRODUCT_SYSTEM_DEVICE := V50 ThinQ
-
-TARGET_SUPPORTS_QUICK_TAP := true
-
-#GAPPS
-GAPPS_BUILD := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="flashlmdd_lao_com" \
