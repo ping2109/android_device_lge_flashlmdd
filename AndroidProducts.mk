@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/aosp_flashlmdd.mk
+    $(LOCAL_DIR)/cherish_flashlmdd.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_flashlmdd-userdebug \
-    aosp_flashlmdd-eng \
-    aosp_flashlmdd-user
+    cherish_flashlmdd-userdebug \
+    cherish_flashlmdd-eng \
+    cherish_flashlmdd-user
